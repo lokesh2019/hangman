@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Hangman Web Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+To run the application, in the project directory, run:
+
+### `npm install`
+The web application does not include node_modules directory it depends on to function 
+properly. Run this command to install all the required libraries.
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Rules of the game
+<p>
+    Mr. Stickson is our best friend. He has been falsely accused of a serious crime and the
+    evil judge has sentenced him to be hanged. The evil judge has agreed to release Mr. 
+    Stickson if you can guess a random word decided by the judge before Mr. Stickson is
+    hanged. His life is in your hands.. Good luck!
+</p>
+<p>
+    The game begins by presenting the player empty boxes - one for each letter in the
+    mystery word. Player guesses the letter by selecting a letter on the keyboard on screen.
+    If the guessed letter exists in the word, the game reveals the position of that letter.
+</p>
+<p>
+    If the player selects a letter that is not in the word, i.e. makes an incorrect guess,
+    the game starts drawing a hanging man - one wrong guess at a time. After ten wrong
+    guesses, the picture completes with a hanging man (hence the name hangman) and the 
+    game is over.
+</p>
+<p>
+    In summary, the purpose of the game is to guess the word correctly before Mr. Stickman
+    is hanged.
+</p>
+<p>
+    Press the RESET button at the bottom of the screen in the "PLAY GAME" tab to reset the game
+    at any point. A new random word will be selected and the game will restart.
+</p>
+<p>
+    Enjoy!! &#128526;
+</p>

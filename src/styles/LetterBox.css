@@ -1,0 +1,14 @@
+/* Style for the mystery word letters */
+.text-box{
+    background-color: wheat;
+    border: 2px solid rgb(99, 61, 42);
+    border-radius: 1vw;
+    font-weight: bolder;
+    width: 3vw;
+    height: 2vw;
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+    margin: 0.5vw;
+    color:rgb(99, 61, 42);
+}

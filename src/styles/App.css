@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+/* Style for the navigation bar */
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(99, 61, 42);
+}
+
+/* Style for the navigation tabs */
+.link-text{
+  background-color: wheat;
+  border-radius: 1vw;
+  color: rgb(99, 61, 42);
+  font-weight: bolder;
+  font-size: larger;
+  text-decoration: none;
+  padding: 1vw;
+  margin: 1vw;
+  width: 20%;
+}

@@ -1,0 +1,22 @@
+/* When user makes a guess by selecting a key, make its background gray */
+.key-guessed{
+    background-color: gray;
+}
+
+/* Not yet guessed keys have brown background */
+.key-not-guessed{
+    background-color: rgb(99, 61, 42);
+}
+
+/* Common style for the keyboard keys */
+.key-background{
+    border: 2px solid rgb(99, 61, 42);
+    border-radius: 1vw;
+    font-weight: bolder;
+    width: 3vw;
+    height: 2vw;
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+    margin: 0.5vw;
+}

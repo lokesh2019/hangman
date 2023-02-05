@@ -1,0 +1,42 @@
+/* Style for the div containing the letters of the mystery word */
+.word-letters{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    padding: 1vw;
+    justify-content: center;
+}
+
+/* Style for the div containing the on screen keyboard */
+.keyboard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 1vw;
+    padding:1vw 0.5vw;
+    border: 2px solid rgb(99, 61, 42);
+    border-radius: 2vw;
+    justify-content: center;
+}
+
+/* Style for the button at the bottom */
+.button-style{
+    padding: 1vw;
+    margin: 1vw;
+    background-color: wheat;
+    border: 2px solid rgb(99, 61, 42);
+    border-radius: 1vw;
+    color:  rgb(99, 61, 42);;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/* Style for Mr. Stickson's images */
+.stickson-image{
+    border-radius: 1vw;
+    height: 20vw;
+    width: auto;
+    margin: 1vw;
+}
